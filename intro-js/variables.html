@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable sencilla</title>
+</head>
+<body>
+    <h1>Uso básico de variables en Javascript</h1>
+    <button onclick="mostrarMensaje()">Mostrar mensaje</button>
+    <p id="mensaje"></p>
+    <script>
+        let miMensaje = "Hola mundo, es un mensaje desde la variable";
+        let miNumero = 10;
+        let verdadero = true;
+        function mostrarMensaje() {
+            document.getElementById("mensaje").innerHTML = miMensaje;
+        }
+    </script>
+</body>
+</html>

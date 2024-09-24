@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de dos numeros</title>
+</head>
+<body>
+    <h1>Calculadora de suma</h1>
+    <label for="numero1">Ingrese el primer numero: </label>
+    <input type="number" id="numero1" placeholder="Ingrese el primer número">
+    <br><br>
+    <label for="numero2">Ingrese el segundo numero: </label>
+    <input type="number" id="numero2" placeholder="Ingrese el segundo número">
+    <br><br>
+    <button onclick="sumarNumeros()">Realizar operaciones</button>
+    <p>La suma es: <span id="suma"></span></p>
+    <p>La resta es: <span id="resta"></span></p>
+    <p>La multiplicación es: <span id="multiplicacion"></span></p>
+    <p>La división es: <span id="division"></span></p>
+    
+
+    <script>
+        function sumarNumeros() {
+            let numero1 = document.getElementById("numero1").value;
+            let numero2 = document.getElementById("numero2").value;
+            //let resultado = parseInt(numero1) + parseInt(numero2);
+            let suma = Number(numero1) + Number(numero2);
+            document.getElementById("suma").innerHTML = suma;
+            let resta = Number(numero1) - Number(numero2);
+            document.getElementById("resta").innerHTML = resta;
+            let multiplicacion= Number(numero1) * Number(numero2);
+            document.getElementById("multiplicacion").innerHTML = multiplicacion;
+            let division = Number(numero1) / Number(numero2);
+            document.getElementById("division").innerHTML = division;
+        }
+    </script>
+</body>
+</html>
