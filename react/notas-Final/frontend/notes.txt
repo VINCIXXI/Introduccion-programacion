@@ -1,0 +1,10 @@
+se instala en el front:
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+npm install -save-dev @babel/plugin-proposal-private-property-in-object
+npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+
+para iniciar front:
+npm start
+
+para iniciar back:
+node server.js

@@ -1,0 +1,6 @@
+se crean con los comandos:
+npm init -y en el backend
+npx create-react-app frontend
+npm install axios en el frontend
+npm start para iniciar en el frontend
+node server.js para el backend
