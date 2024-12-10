@@ -1,0 +1,5 @@
+para compilar es:
+tsc app.ts
+esto crea el archivo app.js
+para prbar que fincione:
+node app.js
